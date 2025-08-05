@@ -22,6 +22,7 @@ def safeExtGet(prop, fallback) {
 
 
 android {
+  namespace 'com.oblador.vectoricons'
   compileSdkVersion safeExtGet('compileSdkVersion', 28)
 
   buildFeatures {
